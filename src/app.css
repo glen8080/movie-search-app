@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main_container{
+    display: grid;
+    place-items: center;
+    margin: 20px auto;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.search_container{
+    width: 1000px;
+    height: 20vh;
+  border: 1px solid lightgrey;  
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+.result_container{
+    width: 860px;
+    height: 68vh;
+    
+    margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(4 ,1fr);
+   
+   padding: 5px;
+}
+.second_container{
+    width: 1000px;
+    height: 70vh;
+    border: 1px solid lightgrey;
+    margin: 0 auto;
+   display: grid;
+   place-items: center;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.movie_container{
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+  display: grid;
+  place-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.form_container{
+    display: grid;
+    place-items: center;
+    width: 800px;
+    height: 15vh;
+
+    
+}
+input{
+    width: 600px;
+    padding: 10px 10px;
+    font-size: large;
+    border: 1px solid lightgray;
+    color: gray;
+}
+button{
+    width: 200px;
+    padding: 9px 0;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+}
+button:hover{
+    background-color: white;
+    
+}
+p{
+    text-align: center;
+    color: gray;
+}
